@@ -1,0 +1,166 @@
+Grundsätzliches zu Bash
+
+systemctl
+journcalctl
+
+Package Management
+- apt
+
+Wo finde ich logs
+Rechtesystem
+
+User-Homeverzeichnis
+- .ssh
+
+Mounts
+Filesystemtree
+
+Betriebssystem
+Syscalls
+
+Shellcheck
+jq
+ssh
+man
+
+&& vs ; - Verkettung von Befehlen
+
+shellcheck
+jq
+curl
+httpie
+nano
+bash
+- ausführbar
+- funktion bauen
+datenstruktur python, verweisen
+
+login-shell - Erweiertung
+- das die tolle Sachen anzeigt
+- schöne Prompts - PS1
+
+bash-history
+Sachen aus der history entfernen bei versehentlich
+
+aliase
+ssh
+
+Es gibt für jedes Tool jemanden der es besser kann oder kennt als man selbst.
+Andere zeigen lassen???
+
+—
+
+Zugriffsberechtigungen 777
+Sicherheitskonzepte
+POSIX-Standard
+
+Geschichte von Unix
+
+Pfade
+Prompt
+Verlassen eines Prozesses
+Exit
+Strg+D
+
+Who - eingeloggter Benutzer
+
+Wie ist ein kommando aufgebaut
+echo
+date
+man
+
+Backslash für nicht auf eine Zeile
+
+; kommando trennen
+
+Ausgabe umleiten >&2
+
+Dinge anschauen auf der Konsole
+cat more less tail head
+
+sortieren, sort -u
+
+Dateien bearbeiten
+- cp, mv, rm
+- -r für UNterverzeichnisse
+
+ls
+
+mkdir
+rmdir
+
+pwd, cd, ~
+- einfach cd ist h
+
+chown
+chmod
+- Ownership
+
+Links
+ln
+lns
+hardlinks
+symlinks
+
+ps
+
+kill
+how to kill your children — buch
+
+ctrl-z - Hintergrundprozesse
+fg, bg
+jobs - Was läuft im Hintergrund
+
+wc - word count
+- zeilen, wörter, zeichen
+
+Pipe - sehr wichtig
+- tee
+
+—
+
+inline file descriptor
+- <()
+
+Alles sind Streams/Dateien
+
+
+signale - interrupts???
+
+—
+
+UNIX
+
+Schwächen kein echtzeitsystem
+
+No news is good news
+- Keine Meldung heißt alles okay
+
+wenig aussagekräftige namen
+- verzeichnisse in unix
+
+keine rückfragen bei gefährlichen kommandos
+
+es ist nicht besonders sicher
+
+—
+
+shebang
+- benutzt sich selber
+
+set -eou pipefail
+- es soll sich wie ein Program verhalten
+- dinge wie sich die Ausführung verhalten soll
+
+—
+
+container ein ding ohne Oberfläche
+- mit ssh rausfinden was passiert dort?
+
+Volumes
+
+—
+
+Der größte Vorteil von Bash ist CI/CD
+Bei Container-Provisionierung
+- Skript geschrieben mit startup
