@@ -45,6 +45,8 @@ Ziel: Bash pragmatisch können — alles was im Developer-Alltag mit Docker, CI 
 | 6 | [`chapters/13-history-prompt-verkettung.md`](chapters/13-history-prompt-verkettung.md) | &&, \|\|, set -euo pipefail | 10 min |
 | 7 | [`chapters/15-entrypoint-script.md`](chapters/15-entrypoint-script.md) | Entrypoint-Script (Abschluss) | 15 min |
 
+Präsentation zum Track: [`slides/docker-track/SLIDES.md`](slides/docker-track/SLIDES.md) — Sprechtext dazu unter [`slides/docker-track/sprechtext/`](slides/docker-track/sprechtext/).
+
 ## Track: Systemüberblick (90 Minuten)
 
 Kompaktes Modul: Dateien, Rechte, Prozesse, Shell-Produktivität.
